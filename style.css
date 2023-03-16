@@ -1,29 +1,142 @@
 body {
+    
     margin: 0px;
 }
+.all-flex {
+display: flex;
+min-width: 1350px;
+}
+
 .all-left {
 width: 15%;
 }
-h3 {
-    padding: 10px;
+h4 {
+    padding: 30px 30px 10px 15px;
     margin: 0px;
+}
+.right h4 {
+    margin-bottom: 50px;
 }
 li {
     list-style-type: none;
     display: flex;
     align-items: center;
-    width: 206px;
-    
+    width: 160px;
+    transition: 0.5s;
 }
-img {
-   width: 20px;
-   height: 20px;
-   padding: 10px;
+ul svg {
+   width: 45px;
+   height: 45px;
+   padding: 14px;
 }
 ul {
-    padding: 0px;
+    padding: 0px 0px 0px 10px;
     height: 100vh;
-    width: 150px;
-    box-shadow: 2px 0px 1px gray;
+    width: 185px;
+    box-shadow: 4px 0px 2px rgb(194, 194, 194);
     margin: 0px;
+}
+li:hover {
+    color: white;
+    background-color: rgb(160, 33, 92);
+    transition: 0.5s;
+}
+.svg-block-up-1 {
+  width: 70px;
+  height: 70px;
+  background-color: green;  
+  padding: 15px;
+  color: white;
+  position: relative;
+  top: -15px;
+  left: 15px;
+}
+.svg-block-up-2 {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(226, 170, 66);  
+    padding: 15px;
+    color: white;
+    position: relative;
+    top: -15px;
+    left: 15px;
+  }
+
+  .svg-block-up-3 {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(19, 58, 165);  
+    padding: 15px;
+    color: white;
+    position: relative;
+    top: -15px;
+    left: 15px;
+  }
+
+.svg-block-up-4 {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(214, 13, 80);  
+    padding: 15px;
+    color: white;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.svg-bottom {
+    width: 10px;
+    height: 10px;
+    
+}
+.txt-bottom {
+    font-size: 10px;
+    color: rgb(179, 179, 179);
+    
+}
+
+.div-txt-bottom{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.block-used-all {
+    box-shadow: 3px 3px 4px rgba(155, 155, 155, 0.788);
+    border: solid 1px rgb(236, 236, 236);
+    margin: 10px;
+    width: 260px;
+    height: 150px;
+    
+}
+.dash-block-flex {
+display: flex;
+justify-content: space-between;
+height: 82px;
+}
+
+.txt-up {
+    margin: 10px;
+    text-align: right;
+}
+
+h5 {
+    font-size: 30px;
+}
+hr {
+    margin: 10px;
+}
+.block-top-flex {
+    display: flex;
 }
