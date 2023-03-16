@@ -4,7 +4,7 @@ body {
 }
 .all-flex {
 display: flex;
-min-width: 1350px;
+min-width: 1500px;
 }
 
 .all-left {
@@ -25,9 +25,9 @@ li {
     transition: 0.5s;
 }
 ul svg {
-   width: 45px;
-   height: 45px;
-   padding: 14px;
+    width: 45px;
+    height: 45px;
+    padding: 14px;
 }
 ul {
     padding: 0px 0px 0px 10px;
@@ -41,6 +41,19 @@ li:hover {
     background-color: rgb(160, 33, 92);
     transition: 0.5s;
 }
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    
+}
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .svg-block-up-1 {
   width: 70px;
   height: 70px;
@@ -88,14 +101,6 @@ li:hover {
 
 
 
-
-
-
-
-
-
-
-
 .svg-bottom {
     width: 10px;
     height: 10px;
@@ -138,5 +143,57 @@ hr {
     margin: 10px;
 }
 .block-top-flex {
+    display: flex;
+}
+
+.block-center {
+    margin: 50px 30px 50px 0px;
+    width: 300px;
+    height: 235px;
+    border: solid 1px rgb(236, 236, 236);
+    box-shadow: 3px 3px 4px rgba(155, 155, 155, 0.788);
+}
+.center-svg-1 {
+    color: white;
+    background-color: green ;
+    width: 270px;
+    height: 130px;
+    padding: 15px;
+    position: relative;
+    top: -15px;
+    left: 13px;
+}
+
+.center-svg-2 {
+    color: white;
+    background-color: rgb(226, 170, 66) ;
+    width: 270px;
+    height: 130px;
+    padding: 15px;
+    position: relative;
+    top: -15px;
+    left: 13px;
+}
+
+.center-svg-3 {
+    color: white;
+    background-color: rgb(19, 58, 165);
+    width: 270px;
+    height: 130px;
+    padding: 15px;
+    position: relative;
+    top: -15px;
+    left: 13px;
+}
+
+
+.txt-bottom-center {
+ padding:5px;
+}
+
+.txt-center-center {
+    padding-left: 15px;
+}
+.center-all {
     display: flex;
 }
