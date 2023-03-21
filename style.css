@@ -5,6 +5,7 @@ body {
 .all-flex {
 display: flex;
 min-width: 1500px;
+
 }
 
 .all-left {
@@ -242,12 +243,58 @@ box-shadow: 3px 3px 4px rgba(155, 155, 155, 0.788);
     background-color:rgb(39, 77, 151) ;
     width: 400px;
     height: 71px;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
 }
 
 td svg {
     margin: 7px;
+    
 }
 td input{
     margin: 11px;
+}
+td hr {
+    width: 470px;
+}
+
+.table-right td{
+padding: 6px 42px;
+   
+}
+
+.table-left td {
+    padding: 0px 9px;
+}
+
+td span {
+    color: rgb(7, 190, 190);
+  
+}
+.line {
+    border-bottom: 1px solid gray;
+}
+
+
+@media screen and (max-width: 800px){
+
+.block-top-flex {
+      display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". ."
+          ". .";
+          gap: 10px ;
+      }
+    
+}
+.block-used-all{
+   
+
+
+
+
+
 }
