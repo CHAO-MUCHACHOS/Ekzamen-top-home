@@ -205,7 +205,7 @@ hr {
 .bottom-block-all{
 
 margin: 10px;
-width: 50%;
+width: 565px;
 height: 300px;
 border: solid 1px rgb(236, 236, 236);
 box-shadow: 3px 3px 4px rgba(155, 155, 155, 0.788);
@@ -217,16 +217,16 @@ box-shadow: 3px 3px 4px rgba(155, 155, 155, 0.788);
     color: white;
     position: relative;
     top: -28px;
-    left: 23px;
-    width: 400px;
+    left: 31px;
+    width: 501px;
     display: flex;
    padding: 10px;
    background-color:rgb(216, 158, 37) ;
    margin-bottom: -7px;
 }
 .txt-padding {
-    padding: 10px;
-    margin: 5px;
+    padding: 12px;
+    margin: 10px;
 }
 .txt-padding:hover {
     background-color:rgb(222, 173, 72) ;
@@ -245,3 +245,9 @@ box-shadow: 3px 3px 4px rgba(155, 155, 155, 0.788);
     margin-bottom: 20px;
 }
 
+td svg {
+    margin: 7px;
+}
+td input{
+    margin: 11px;
+}
