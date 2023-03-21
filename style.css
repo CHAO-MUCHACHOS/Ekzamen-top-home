@@ -17,7 +17,7 @@ h4 {
 .right h4 {
     margin-bottom: 50px;
 }
-li {
+.li-left {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -29,16 +29,16 @@ ul svg {
     height: 45px;
     padding: 14px;
 }
-ul {
+.ul-left {
     padding: 0px 0px 0px 10px;
     height: 100vh;
     width: 185px;
     box-shadow: 4px 0px 2px rgb(194, 194, 194);
     margin: 0px;
 }
-li:hover {
+.li-left:hover {
     color: white;
-    background-color: rgb(160, 33, 92);
+    background-color: rgb(195, 32, 86);
     transition: 0.5s;
 }
 
@@ -57,7 +57,7 @@ li:hover {
 .svg-block-up-1 {
   width: 70px;
   height: 70px;
-  background-color: green;  
+  background-color: rgb(68, 139, 0);  
   padding: 15px;
   color: white;
   position: relative;
@@ -67,7 +67,7 @@ li:hover {
 .svg-block-up-2 {
     width: 70px;
     height: 70px;
-    background-color: rgb(226, 170, 66);  
+    background-color: rgb(216, 158, 37);  
     padding: 15px;
     color: white;
     position: relative;
@@ -78,7 +78,7 @@ li:hover {
   .svg-block-up-3 {
     width: 70px;
     height: 70px;
-    background-color: rgb(19, 58, 165);  
+    background-color: rgb(39, 77, 151);  
     padding: 15px;
     color: white;
     position: relative;
@@ -155,7 +155,7 @@ hr {
 }
 .center-svg-1 {
     color: white;
-    background-color: green ;
+    background-color: rgb(68, 139, 0) ;
     width: 270px;
     height: 130px;
     padding: 15px;
@@ -166,7 +166,7 @@ hr {
 
 .center-svg-2 {
     color: white;
-    background-color: rgb(226, 170, 66) ;
+    background-color: rgb(216, 158, 37) ;
     width: 270px;
     height: 130px;
     padding: 15px;
@@ -177,7 +177,7 @@ hr {
 
 .center-svg-3 {
     color: white;
-    background-color: rgb(19, 58, 165);
+    background-color: rgb(39, 77, 151);
     width: 270px;
     height: 130px;
     padding: 15px;
@@ -197,3 +197,51 @@ hr {
 .center-all {
     display: flex;
 }
+
+.bottom-flex {
+    display: flex;
+}
+
+.bottom-block-all{
+
+margin: 10px;
+width: 50%;
+height: 300px;
+border: solid 1px rgb(236, 236, 236);
+box-shadow: 3px 3px 4px rgba(155, 155, 155, 0.788);
+}
+
+.bottom-block-top-txt {
+    align-items: center;
+    height: 58px;
+    color: white;
+    position: relative;
+    top: -28px;
+    left: 23px;
+    width: 400px;
+    display: flex;
+   padding: 10px;
+   background-color:rgb(216, 158, 37) ;
+   margin-bottom: -7px;
+}
+.txt-padding {
+    padding: 10px;
+    margin: 5px;
+}
+.txt-padding:hover {
+    background-color:rgb(222, 173, 72) ;
+}
+
+
+.bottom-block-top-txt-left{
+    position: relative;
+    top: -28px;
+    left: 23px;
+    padding: 12px;
+    color: white;
+    background-color:rgb(39, 77, 151) ;
+    width: 400px;
+    height: 71px;
+    margin-bottom: 20px;
+}
+
