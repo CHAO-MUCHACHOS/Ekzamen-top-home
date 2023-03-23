@@ -257,6 +257,18 @@ td span {
   border-bottom: 1px solid gray;
 }
 
+.Footer-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.Footer-flex span {
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+
+
 @media screen and (max-width: 800px) {
   .block-top-flex {
     display: grid;
@@ -269,6 +281,50 @@ td span {
       ". .";
     gap: 10px;
   }
+  .block-used-all {
+    width: 340px;
+  }
+  .block-center {
+    width: 210px;
+    height: 254px ;
+  }
+  .center-svg-1{
+    width: 180px;
+    height: 115px;
+  }
+  .center-svg-2{
+    width: 180px;
+  height: 115px;
 }
-.block-used-all {
+.center-svg-3{
+  width: 180px;
+  height: 115px;
+}
+.bottom-flex {
+  flex-direction: column;
+}
+.bottom-block-all {
+  margin-bottom: 45px;
+}
+}
+@media screen and (max-width: 650px){
+.all-left {
+  display: none;
+}
+.menu-svg {
+  background: url("list.svg") center / cover;
+  width: 35px;
+  height: 27px;
+ margin: 10px;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
 }
