@@ -481,7 +481,9 @@ margin-bottom: 20px;
   display: flex;
   justify-content: flex-end;
   margin: 50px;
-  width: 200px;
-  height: 100px;
-  background-color:rgb(214, 13, 80) ;
+}
+.UP-button-bottom span {
+  background-color: #d60d50;
+  color: white;
+  padding: 10px 65px
 }
